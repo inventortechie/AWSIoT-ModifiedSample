@@ -3,8 +3,7 @@
 
 import random
 
-#Outputs Random Address from Defined List
-
+# Outputs Random Address from Defined List
 def myStreet():
     addy1 = "95085 Florencio Lights, XYZ, AB"
     addy2 = "76229 Eveline Pass, XYZ, AB"
@@ -14,8 +13,7 @@ def myStreet():
     choice = random.choice((addy1,addy2,addy3,addy4,addy5))
     return choice
 
-#Generate Fake GPS Coordinates.
-
+# Generate Fake GPS Coordinates.
 def myCoords():
     x = round(random.uniform(-180,180), 4)
     y = round(random.uniform(-180,180), 4)
