@@ -23,6 +23,22 @@ import json
 import random
 AllowedActions = ['both', 'publish', 'subscribe']
 
+# Outputs Random Address from Defined List
+def myStreet():
+    addy1 = "95085 Florencio Lights, XYZ, AB"
+    addy2 = "76229 Eveline Pass, XYZ, AB"
+    addy3 = "253 Johnson Creek, XYZ, AB"
+    addy4 = "15275 Elfrieda Street, XYZ, AB"
+    addy5 = "3242 Bethany Loop, XYZ, AB"
+    choice = random.choice((addy1,addy2,addy3,addy4,addy5))
+    return choice
+
+# Generate Fake GPS Coordinates.
+def myCoords():
+    x = round(random.uniform(-180,180), 4)
+    y = round(random.uniform(-180,180), 4)
+    return x,y
+
 # Custom MQTT message callback
 def customCallback(client, userdata, message):
     print("Received a new message: ")
@@ -121,8 +137,8 @@ while True:
         'timestamp':    int(time.time()),
         'isOccupied':   random.choice((True, False)),
             'meter': {
-                'location': (round(random.uniform(-180,180), 4), round(random.uniform(-100,100), 4)),
-                'address':  random.choice(('95085 Florencio Lights, XYZ, AB','76229 Eveline Pass, XYZ, AB','253 Johnson Creek, XYZ, AB','15275 Elfrieda Street, XYZ, AB','3242 Bethany Loop, XYZ, AB')),
+                'location': myCoords(),
+                'address':  myStreet(),
                 'number':   random.randint(0,5)
             }  
         }
@@ -132,4 +148,5 @@ while True:
             print('Published topic %s: %s\n' % (topic, json_string))
         loopCount += 1
     time.sleep(5)
+
 
