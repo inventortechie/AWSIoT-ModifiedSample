@@ -121,7 +121,7 @@ while True:
         'timestamp':    int(time.time()),
         'isOccupied':   random.choice((True, False)),
             'meter': {
-                'location': (round(random.uniform(-100,100), 4), round(random.uniform(-100,100), 4)),
+                'location': (round(random.uniform(-180,180), 4), round(random.uniform(-100,100), 4)),
                 'address':  random.choice(('95085 Florencio Lights, XYZ, AB','76229 Eveline Pass, XYZ, AB','253 Johnson Creek, XYZ, AB','15275 Elfrieda Street, XYZ, AB','3242 Bethany Loop, XYZ, AB')),
                 'number':   random.randint(0,5)
             }  
