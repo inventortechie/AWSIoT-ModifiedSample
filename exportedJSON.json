@@ -1,0 +1,384 @@
+{
+  "messages": [
+    {
+      "format": "json",
+      "payload": {
+        "timestamp": 1539639389,
+        "meter": {
+          "number": 3,
+          "location": [
+            -4.9283,
+            106.684
+          ],
+          "address": "76229 Eveline Pass, XYZ, AB"
+        },
+        "isOccupied": false
+      },
+      "qos": 0,
+      "timestamp": 1539639389405,
+      "topic": "parking/"
+    },
+    {
+      "format": "json",
+      "payload": {
+        "timestamp": 1539639394,
+        "meter": {
+          "number": 1,
+          "location": [
+            -41.6551,
+            -131.2267
+          ],
+          "address": "76229 Eveline Pass, XYZ, AB"
+        },
+        "isOccupied": true
+      },
+      "qos": 0,
+      "timestamp": 1539639394527,
+      "topic": "parking/"
+    },
+    {
+      "format": "json",
+      "payload": {
+        "timestamp": 1539639399,
+        "meter": {
+          "number": 1,
+          "location": [
+            -159.8887,
+            -106.4085
+          ],
+          "address": "76229 Eveline Pass, XYZ, AB"
+        },
+        "isOccupied": true
+      },
+      "qos": 0,
+      "timestamp": 1539639399649,
+      "topic": "parking/"
+    },
+    {
+      "format": "json",
+      "payload": {
+        "timestamp": 1539639404,
+        "meter": {
+          "number": 2,
+          "location": [
+            118.5771,
+            -88.254
+          ],
+          "address": "253 Johnson Creek, XYZ, AB"
+        },
+        "isOccupied": false
+      },
+      "qos": 0,
+      "timestamp": 1539639404721,
+      "topic": "parking/"
+    },
+    {
+      "format": "json",
+      "payload": {
+        "timestamp": 1539639409,
+        "meter": {
+          "number": 1,
+          "location": [
+            85.0598,
+            28.878
+          ],
+          "address": "15275 Elfrieda Street, XYZ, AB"
+        },
+        "isOccupied": true
+      },
+      "qos": 0,
+      "timestamp": 1539639409794,
+      "topic": "parking/"
+    },
+    {
+      "format": "json",
+      "payload": {
+        "timestamp": 1539639414,
+        "meter": {
+          "number": 2,
+          "location": [
+            74.6215,
+            166.7464
+          ],
+          "address": "3242 Bethany Loop, XYZ, AB"
+        },
+        "isOccupied": false
+      },
+      "qos": 0,
+      "timestamp": 1539639414871,
+      "topic": "parking/"
+    },
+    {
+      "format": "json",
+      "payload": {
+        "timestamp": 1539639419,
+        "meter": {
+          "number": 0,
+          "location": [
+            -149.8153,
+            34.5099
+          ],
+          "address": "3242 Bethany Loop, XYZ, AB"
+        },
+        "isOccupied": false
+      },
+      "qos": 0,
+      "timestamp": 1539639419939,
+      "topic": "parking/"
+    },
+    {
+      "format": "json",
+      "payload": {
+        "timestamp": 1539639424,
+        "meter": {
+          "number": 0,
+          "location": [
+            53.4718,
+            121.4043
+          ],
+          "address": "95085 Florencio Lights, XYZ, AB"
+        },
+        "isOccupied": true
+      },
+      "qos": 0,
+      "timestamp": 1539639425021,
+      "topic": "parking/"
+    },
+    {
+      "format": "json",
+      "payload": {
+        "timestamp": 1539639430,
+        "meter": {
+          "number": 3,
+          "location": [
+            -178.098,
+            -68.7012
+          ],
+          "address": "15275 Elfrieda Street, XYZ, AB"
+        },
+        "isOccupied": false
+      },
+      "qos": 0,
+      "timestamp": 1539639430128,
+      "topic": "parking/"
+    },
+    {
+      "format": "json",
+      "payload": {
+        "timestamp": 1539639435,
+        "meter": {
+          "number": 3,
+          "location": [
+            -45.1786,
+            -89.7275
+          ],
+          "address": "15275 Elfrieda Street, XYZ, AB"
+        },
+        "isOccupied": true
+      },
+      "qos": 0,
+      "timestamp": 1539639435252,
+      "topic": "parking/"
+    },
+    {
+      "format": "json",
+      "payload": {
+        "timestamp": 1539639440,
+        "meter": {
+          "number": 5,
+          "location": [
+            -33.5163,
+            -103.391
+          ],
+          "address": "95085 Florencio Lights, XYZ, AB"
+        },
+        "isOccupied": true
+      },
+      "qos": 0,
+      "timestamp": 1539639440374,
+      "topic": "parking/"
+    },
+    {
+      "format": "json",
+      "payload": {
+        "timestamp": 1539639445,
+        "meter": {
+          "number": 1,
+          "location": [
+            -28.8743,
+            103.1206
+          ],
+          "address": "95085 Florencio Lights, XYZ, AB"
+        },
+        "isOccupied": true
+      },
+      "qos": 0,
+      "timestamp": 1539639445447,
+      "topic": "parking/"
+    },
+    {
+      "format": "json",
+      "payload": {
+        "timestamp": 1539639450,
+        "meter": {
+          "number": 3,
+          "location": [
+            -60.3291,
+            -93.2806
+          ],
+          "address": "95085 Florencio Lights, XYZ, AB"
+        },
+        "isOccupied": false
+      },
+      "qos": 0,
+      "timestamp": 1539639450521,
+      "topic": "parking/"
+    },
+    {
+      "format": "json",
+      "payload": {
+        "timestamp": 1539639455,
+        "meter": {
+          "number": 1,
+          "location": [
+            102.876,
+            -59.782
+          ],
+          "address": "3242 Bethany Loop, XYZ, AB"
+        },
+        "isOccupied": true
+      },
+      "qos": 0,
+      "timestamp": 1539639455648,
+      "topic": "parking/"
+    },
+    {
+      "format": "json",
+      "payload": {
+        "timestamp": 1539639460,
+        "meter": {
+          "number": 0,
+          "location": [
+            125.119,
+            11.3779
+          ],
+          "address": "253 Johnson Creek, XYZ, AB"
+        },
+        "isOccupied": true
+      },
+      "qos": 0,
+      "timestamp": 1539639460719,
+      "topic": "parking/"
+    },
+    {
+      "format": "json",
+      "payload": {
+        "timestamp": 1539639465,
+        "meter": {
+          "number": 1,
+          "location": [
+            -144.2101,
+            -74.3299
+          ],
+          "address": "95085 Florencio Lights, XYZ, AB"
+        },
+        "isOccupied": true
+      },
+      "qos": 0,
+      "timestamp": 1539639465838,
+      "topic": "parking/"
+    },
+    {
+      "format": "json",
+      "payload": {
+        "timestamp": 1539639470,
+        "meter": {
+          "number": 4,
+          "location": [
+            -161.6174,
+            -5.193
+          ],
+          "address": "95085 Florencio Lights, XYZ, AB"
+        },
+        "isOccupied": false
+      },
+      "qos": 0,
+      "timestamp": 1539639470915,
+      "topic": "parking/"
+    },
+    {
+      "format": "json",
+      "payload": {
+        "timestamp": 1539639475,
+        "meter": {
+          "number": 4,
+          "location": [
+            -107.0656,
+            -4.9784
+          ],
+          "address": "3242 Bethany Loop, XYZ, AB"
+        },
+        "isOccupied": true
+      },
+      "qos": 0,
+      "timestamp": 1539639475984,
+      "topic": "parking/"
+    },
+    {
+      "format": "json",
+      "payload": {
+        "timestamp": 1539639481,
+        "meter": {
+          "number": 0,
+          "location": [
+            -69.7549,
+            79.4126
+          ],
+          "address": "3242 Bethany Loop, XYZ, AB"
+        },
+        "isOccupied": true
+      },
+      "qos": 0,
+      "timestamp": 1539639481057,
+      "topic": "parking/"
+    },
+    {
+      "format": "json",
+      "payload": {
+        "timestamp": 1539639486,
+        "meter": {
+          "number": 4,
+          "location": [
+            -44.0248,
+            176.2429
+          ],
+          "address": "15275 Elfrieda Street, XYZ, AB"
+        },
+        "isOccupied": false
+      },
+      "qos": 0,
+      "timestamp": 1539639486130,
+      "topic": "parking/"
+    },
+    {
+      "format": "json",
+      "payload": {
+        "timestamp": 1539639491,
+        "meter": {
+          "number": 5,
+          "location": [
+            -178.0856,
+            17.5012
+          ],
+          "address": "95085 Florencio Lights, XYZ, AB"
+        },
+        "isOccupied": false
+      },
+      "qos": 0,
+      "timestamp": 1539639491203,
+      "topic": "parking/"
+    }
+  ],
+  "qos": 0,
+  "topicFilter": "parking/"
+}
